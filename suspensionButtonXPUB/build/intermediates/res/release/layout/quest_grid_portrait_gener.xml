@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/quest_grid"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="360dp"
+        android:layout_height="90dp"
+        android:background="#FFFFFF"/>
+    <TextView
+        android:id="@+id/gotobutton"
+        android:layout_width="70dp"
+        android:layout_height="63dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dp"
+        android:textSize="20sp"
+        android:textColor="#fe394b"
+        android:text="@string/noticeboard_gotobutton"
+        android:gravity="center"
+        android:background="@drawable/noticeboard_award_toward_portrait"/>
+    <TextView
+        android:id="@+id/drawbutton"
+        android:layout_width="70dp"
+        android:layout_height="63dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dp"
+        android:textSize="20sp"
+        android:textColor="#63d6b7"
+        android:text="@string/noticeboard_drawbutton"
+        android:gravity="center"
+        android:background="@drawable/noticeboard_award_get_portrait"/>
+    <TextView
+        android:id="@+id/achievebutton"
+        android:layout_width="70dp"
+        android:layout_height="63dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dp"
+        android:textSize="20sp"
+        android:textColor="#55616d"
+        android:text="@string/noticeboard_achievebutton"
+        android:gravity="center"
+        android:background="@drawable/noticeboard_award_finish_portrait"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:layout_toRightOf="@+id/imageView"
+        android:textColor="@android:color/black"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="90dp"
+        android:layout_height="90dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_below="@+id/textView"
+        android:gravity="center"/>
+
+</RelativeLayout>
+<!-- From: file:/Users/JhonSmith/Development/workspaceAS/Test/suspensionButtonXPUB/src/main/res/layout/quest_grid_portrait_gener.xml -->

@@ -1,0 +1,27 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "19.1.0"
+
+    defaultConfig {
+        minSdkVersion 9
+        targetSdkVersion 9
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile project(':facebookSDK')
+    compile 'com.google.code.gson:gson:2.3.1'
+    compile files('libs/Branch-1.8.4.jar')
+    compile files('libs/testinagent.jar')
+    compile files('libs/umeng-analytics-v5.5.2.jar')
+    compile 'com.android.support:support-annotations:+'
+}

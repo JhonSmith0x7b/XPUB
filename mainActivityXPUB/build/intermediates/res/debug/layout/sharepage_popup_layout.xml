@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:id="@+id/popRl">
+    <GridView 
+        android:id="@+id/gv"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        ></GridView>
+
+</RelativeLayout>
+<!-- From: file:/Users/JhonSmith/Development/workspaceAS/Test/suspensionButtonXPUB/src/main/res/layout/sharepage_popup_layout.xml --><!-- From: file:/Users/JhonSmith/Development/workspaceAS/Test/mainActivityXPUB/build/intermediates/exploded-aar/Test/suspensionButtonXPUB/unspecified/res/layout/sharepage_popup_layout.xml -->

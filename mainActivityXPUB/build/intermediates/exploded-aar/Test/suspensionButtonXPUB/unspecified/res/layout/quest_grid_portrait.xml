@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/quest_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center" >
+	<ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="360dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="15dp"  />
+    <ImageView
+        android:id="@+id/newDivide2"
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:layout_toRightOf="@+id/textView3"
+        android:layout_marginTop="20dp" 
+        android:layout_marginLeft="15dp"/>
+    <ImageView
+        android:id="@+id/newDivide"
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:layout_toRightOf="@+id/textView3"
+        android:layout_marginTop="20dp" 
+        android:layout_marginLeft="15dp"/>
+    <ImageView
+        android:id="@+id/newDivide3"
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:layout_toRightOf="@+id/textView3"
+        android:layout_marginTop="20dp" 
+        android:layout_marginLeft="15dp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="170dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center_vertical"
+        android:layout_toRightOf="@+id/imageView1"/>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:id="@+id/questDid"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@+id/imageView1"
+        android:layout_below="@+id/textView3"
+        android:gravity="center"/>
+
+</RelativeLayout><!-- From: file:/Users/JhonSmith/Development/workspaceAS/Test/suspensionButtonXPUB/src/main/res/layout/quest_grid_portrait.xml -->

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:id="@+id/rlWebView"
+    android:background="#F6F6F8">
+    <Button 
+        android:id="@+id/aboveButton"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:text="@string/noticeboard_invitetitle"
+        />
+    <WebView 
+        android:id="@+id/webViewContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/aboveButton"
+        />
+
+</RelativeLayout>
+<!-- From: file:/Users/JhonSmith/Development/workspaceAS/Test/suspensionButtonXPUB/src/main/res/layout/webview_main_portrait.xml -->

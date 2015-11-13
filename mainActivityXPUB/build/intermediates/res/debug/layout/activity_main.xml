@@ -1,0 +1,136 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation = "vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.elex.popupdemo.MainActivity" >
+
+        <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world"
+        android:textSize="25sp" />
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="300dip"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <View  
+        android:layout_width="fill_parent"  
+        android:layout_height="2dip"  
+        android:background="#FF909090" />
+    
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+          
+     <Button
+        android:id="@+id/inviteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="邀请" />
+     <Button 
+	    android:id="@+id/shareButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+	    android:text="分享"/>
+
+    <Button
+        android:id="@+id/awardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="领奖" />
+
+	 <Button
+            android:id="@+id/NoticeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="公告" />
+	 <Button 
+	        android:id="@+id/cleanButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+	        android:text="加速"/>
+	 <Button
+        android:id="@+id/screenshotButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="截图" />
+
+        
+    </LinearLayout>
+    
+        
+    <View  
+        android:layout_width="fill_parent"  
+        android:layout_height="2dip"  
+        android:background="#FF909090" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+		
+
+         <Button
+        android:id="@+id/FbLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="fb登录" />
+          
+          <Button
+        android:id="@+id/FbLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="fb登出" />
+
+    <Button
+        android:id="@+id/FbInvite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="fb邀请" />
+    
+        <Button
+            android:id="@+id/showButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="显示" />
+
+        <Button
+            android:id="@+id/hideButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="隐藏" />
+
+
+    </LinearLayout>
+    <View  
+        android:layout_width="fill_parent"  
+        android:layout_height="2dip"  
+        android:background="#FF909090" />
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent">
+
+	    <Button
+            android:id="@+id/TestButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="响应？" />
+	    <Button
+            android:id="@+id/LoginButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="登游戏" />
+	   	<Button
+            android:id="@+id/StoryShare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="StoryShare" />
+	</LinearLayout>
+</LinearLayout><!-- From: file:/Users/JhonSmith/Development/workspaceAS/Test/mainActivityXPUB/src/main/res/layout/activity_main.xml -->

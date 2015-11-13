@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/quest_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="48dp"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/questDes"
+        android:layout_width="wrap_content"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:layout_toRightOf="@+id/imageView1"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:text="questDes"
+        android:textSize="20dp" 
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/questDid"
+        android:layout_width="wrap_content"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:layout_toRightOf="@+id/questDes"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="20dp"
+        android:text="questDid"
+        android:textSize="15dp" 
+        android:textColor="#000000"/>
+
+    <Button
+        android:id="@+id/getBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+		android:layout_toLeftOf="@+id/towardBtn"
+        android:layout_gravity="center"
+        android:text="getBtn" />
+
+    <Button
+        android:id="@+id/towardBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center"
+        android:text="towardBtn" />
+
+</RelativeLayout>

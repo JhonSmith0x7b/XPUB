@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <Button 
+        android:id="@+id/closeButton"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+      	android:layout_alignParentTop="true"
+      	android:layout_marginRight="5dp"
+      	android:layout_marginTop="5dp"
+      	android:background="@drawable/noticeboard_basic_closeimg"
+        />
+    <TextView 
+        android:id="@+id/shareDescribeContent"
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:textColor="#3C3C3C"
+        android:text="@string/shareDescribeContent"
+        />
+
+</RelativeLayout>
+<!-- From: file:/Users/JhonSmith/Development/workspaceAS/Test/suspensionButtonXPUB/src/main/res/layout/mysharepagedescribe_view_portrait.xml -->

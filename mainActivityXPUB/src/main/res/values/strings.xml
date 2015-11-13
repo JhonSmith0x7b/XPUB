@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PopupDemo</string>
+    <string name="hello_world">15秒后悬浮窗展现，请耐心等待~~~</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

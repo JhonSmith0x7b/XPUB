@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/JhonSmith/Development/workspaceAS/Test/suspensionButtonXPUB/src/main/res/values-zh-rCN/strings.xml -->
+    <eat-comment/>
+    <string name="facebooknologin">失败，必须登录facebook…</string>
+    <string name="fbFriendsAllPick">全选</string>
+    <string name="fbFriendsNumTitle">人數：</string>
+    <string name="fbFriendsNumZero">还没有勾选好友哦，快邀请好友一起来玩吧~</string>
+    <string name="fbLikeContent">关注我们，不错过每次精彩活动与福利发送！</string>
+    <string name="fblike_error">点赞好像有点问题哟，再点一次试试~~~</string>
+    <string name="floatbutton_loadingdata_tip">正在加载数据，请稍后点击…</string>
+    <string name="gotoInvite">正在前往邀请页…</string>
+    <string name="gotoShare">正在前往分享页…</string>
+    <string name="invite_error">好友去哪了>&lt;点我刷新</string>
+    <string name="loadingMsg">请稍候…</string>
+    <string name="loginresultcancel">登录失败</string>
+    <string name="loginresulterror">登录出错，请重试…</string>
+    <string name="loginresultsuccess">登录成功</string>
+    <!-- From: file:/Users/JhonSmith/Development/workspaceAS/Test/suspensionButtonXPUB/build/intermediates/exploded-aar/Test/facebookSDK/unspecified/res/values-zh-rCN/values-zh-rCN.xml -->
+    <eat-comment/>
+    <string name="messenger_send_button_text">发送</string>
+    <!-- From: file:/Users/JhonSmith/Development/workspaceAS/Test/suspensionButtonXPUB/src/main/res/values-zh-rCN/strings.xml -->
+    <eat-comment/>
+    <string name="noticeWindow_loading">精彩内容加载中，请稍后。（如果长时间没有加载成功，点击三下关闭按钮即可关闭公告）</string>
+    <string name="noticeboard_achievebutton">完成</string>
+    <string name="noticeboard_action">正在前往>>></string>
+    <string name="noticeboard_drawbutton">领取</string>
+    <string name="noticeboard_error">抱歉，发生错误，请重试…</string>
+    <string name="noticeboard_gotobutton">前往</string>
+    <string name="noticeboard_invitebutton">发送邀请</string>
+    <string name="noticeboard_invitetitle">回游戏</string>
+    <string name="noticeboard_questCanDraw">未领取</string>
+    <string name="noticeboard_questCheck"> 任务奖励领取中，请稍候~~~ </string>
+    <string name="noticeboard_questCompelete"> 已达成目标 </string>
+    <string name="noticeboard_questDes"> 任务介绍：  </string>
+    <string name="noticeboard_questDrawed">已领取</string>
+    <string name="noticeboard_questNoCompelete_1"> 距离目标： </string>
+    <string name="noticeboard_questNoCompelete_2"> 个 </string>
+    <string name="noticeboard_questNoDid"> 任务还没有完成，加油做任务吧~~~</string>
+    <string name="noticeboard_questgeterror">任务进度情况可能获取失败，重新打开领奖试试吧>&lt;</string>
+    <string name="noticeboard_sendMsg"> 欢迎来玩~~~ </string>
+    <string name="noticeboard_sendToFriend_1">正在发送给 </string>
+    <string name="noticeboard_sendToFriend_2"> 位好友</string>
+    <string name="noticeboardinvitebutton">邀请</string>
+    <string name="noticeboardnoticebutton">公告</string>
+    <string name="noticeboardrewardbutton">领奖</string>
+    <string name="noticeboardsharebutton">分享</string>
+    <string name="noticewindow_getawaytext">今天不要再自动弹出公告</string>
+    <string name="progressContent">正在努力加载中…</string>
+    <string name="progressTitle">请稍后</string>
+    <string name="shareButtonContent">求战友！点击链接与我一起~</string>
+    <string name="shareButtonResult">复制成功</string>
+    <string name="shareContent">当有好友点击您的分享链接加入游戏 您将获得奖励</string>
+    <string name="shareDescribeContent">通过分享，获得更多福利！</string>
+    <string name="sharePageCopyButton">复制链接</string>
+    <string name="sharePageDescribe">分享您的链接</string>
+    <string name="sharePageFbShareButton">Facebook分享</string>
+    <string name="shareResultCancel">用户取消</string>
+    <string name="shareResultError">错误，再试一次吧</string>
+    <string name="shareResultSuccess">成功啦</string>
+</resources>
