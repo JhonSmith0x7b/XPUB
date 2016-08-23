@@ -63,7 +63,6 @@
 [cocos2dx-cpp 2.x](#cpp2.x)
 
 <span id = "js3.x"/>
-<div style = "border:3px ridge;padding:5px">
 #### cocos2dx-js 3.x
 
 * 获取到**HolaGPlaySDK.zip**,解压得到`gplay_for_js,api_js`等一系列文件夹
@@ -123,9 +122,7 @@
         APP_ABI := armeabi armeabi-v7a
 
 
-</div>
 <span id = "js2.x"/>
-<div style = "border:3px ridge;padding:5px">
 ####cocos2dx-js 2.x
 
 * 获取到**HolaGPlaySDK.zip**,解压得到`gplay_for_js,api_js`等一系列文件夹
@@ -184,9 +181,7 @@
         
         APP_ABI := armeabi armeabi-v7a
 
-</div>
 <span id = "lua3.x"/>
-<div style = "border:3px ridge;padding:5px">
 ####cocos2dx-lua 3.x
 
 * 获取到**HolaGPlaySDK.zip**,解压得到`gplay_for_lua,api_lua`等一系列文件夹
@@ -246,9 +241,7 @@
         
         APP_ABI := armeabi armeabi-v7a
 
-</div>
 <span id = "lua2.x"/>
-<div style = "border:3px ridge;padding:5px">
 ####cocos2dx-lua 2.x
 
 * 获取到**HolaGPlaySDK.zip**,解压得到`gplay_for_lua,api_lua`等一系列文件夹
@@ -319,9 +312,7 @@
         APP_ABI := armeabi armeabi-v7a
 
 
-</div>
 <span id = "cpp3.x"/>
-<div style = "border:3px ridge;padding:5px">
 ####cocos2dx-cpp 3.x
 
 * 获取到**HolaGPlaySDK.zip**,解压得到`gplay_for_cpp`等一系列文件夹
@@ -357,9 +348,7 @@
         APP_ABI := armeabi armeabi-v7a
 
 
-</div>
 <span id = "cpp2.x"/>
-<div style = "border:3px ridge;padding:5px">
 ####cocos2dx-cpp 2.x
 
 * 获取到**HolaGPlaySDK.zip**,解压得到`gplay_for_cpp`等一系列文件夹
@@ -399,7 +388,6 @@
 
     APP_ABI := armeabi armeabi-v7a
 
-</div><div>
 
 >**阶段测试 :debug模式打包apk,编译可以顺利通过,游戏正常运行,则可以进行下一步接入工作**
 
