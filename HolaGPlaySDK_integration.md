@@ -25,7 +25,7 @@ GPlay是可以将游戏转化成即点即玩的SDK, 接入方式**与传统SDK�
 本文档将介绍如何将你的游戏接入HolaGPlay,主要内容包括
 
 * 接入步骤
- * [获取配置信息](#0)
+ * [获取配置信息](#preloadGroups)
  * [集成SDK](#1)
  * [运行游戏](#2)
  * [场景分组](#3)
@@ -69,7 +69,7 @@ GPlay是可以将游戏转化成即点即玩的SDK, 接入方式**与传统SDK�
 
 <smith id = "js3.x"/>
 #### cocos2dx-js 3.x
-
+<h4 id="preloadGroups">加载场景资源接口</h4>
 
 * 获取到**HolaGPlaySDK.zip**,解压得到`gplay_for_js,api_js`等一系列文件夹
 * 复制 `gplay_for_js/` 文件夹到 `游戏目录/frameworks/runtime-src/proj.android/jni`.
