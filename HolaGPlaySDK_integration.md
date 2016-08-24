@@ -37,7 +37,7 @@ GPlay是可以将游戏转化成即点即玩的SDK, 接入方式**与传统SDK�
 ##接入步骤
 
 
-<span id ="0" />
+<smith id ="0" ></smith>
 如果是首次接入游戏, 游戏开发者需要前往[Holaverse开发者中心](http://developers.holaverse.com/auth/login)注册账号, 注册结束将鼠标移到右上角头像, 选择**我的组织**. 注册结束后, 会默认创建一个组织, 打开该组织. 在右边树形菜单里选择**所有游戏**, 点击**创建游戏**, 输入游戏名称, 并且选择**游戏引擎**为**GplayCocosXXX(对应引擎语言)**, 之后去所有游戏即可看见创建的游戏, **游戏key**即为 **app_id** , 点击**修改游戏**, 即可查看 **secret** .
 在**支付回调地址**那里, 如果游戏有验证服务器, 请填写自己的回调地址(具体配置, 请参考[服务端文档](https://coding.net/u/holaverse/p/HolaGPlaySDK/git/blob/master/doc/HolaGPlaySDK_API_Server.md)), 也可以填写GPlay游戏默认的回调地址`http://developers.holaverse.com/holaverse/pay/callback`.
 
